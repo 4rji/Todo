@@ -4,6 +4,9 @@ A terminal-based interactive menu for managing and executing scripts with detail
 
 ![Todo Script Selector Demo](path_to_demo.gif)
 
+<img width="952" alt="Image" src="https://github.com/user-attachments/assets/f46924ff-f4ce-4a1e-bba4-4c5e57575d45" />
+
+
 ## Features
 
 - 🎨 Colorful and interactive terminal interface
