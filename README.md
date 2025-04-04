@@ -16,7 +16,12 @@ A terminal-based interactive menu for managing and executing scripts with detail
 - ⌨️ Easy keyboard navigation
 - 🎯 Clean and organized script presentation
 
+<img width="811" alt="Image" src="https://github.com/user-attachments/assets/b0533263-5abd-4dd9-801b-b3e06d876825" />
+
+
 ## Prerequisites
+
+
 
 ### For macOS
 ```bash
@@ -24,7 +29,6 @@ A terminal-based interactive menu for managing and executing scripts with detail
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install required packages
-brew install go    # For building the program
 brew install chafa # For image preview support
 ```
 
@@ -32,26 +36,27 @@ brew install chafa # For image preview support
 ```bash
 # Debian/Ubuntu
 sudo apt update
-sudo apt install golang chafa
+sudo apt install chafa
 
 # Fedora
-sudo dnf install golang chafa
+sudo dnf install  chafa
 
 # Arch Linux
-sudo pacman -S go chafa
+sudo pacman -S  chafa
 ```
 
 ## Installation
+
+Use  the script provided - todoinst
+```bash
+todoinst
+```
+
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/todo.git
 cd todo
-```
-
-2. Build the program:
-```bash
-go build todo.go
 ```
 
 3. Create the required directories:
