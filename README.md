@@ -4,6 +4,9 @@ A terminal-based interactive menu for managing and executing scripts with detail
 
 ![Todo Script Selector Demo](path_to_demo.gif)
 
+<img width="952" alt="Image" src="https://github.com/user-attachments/assets/f46924ff-f4ce-4a1e-bba4-4c5e57575d45" />
+
+
 ## Features
 
 - 🎨 Colorful and interactive terminal interface
@@ -13,7 +16,12 @@ A terminal-based interactive menu for managing and executing scripts with detail
 - ⌨️ Easy keyboard navigation
 - 🎯 Clean and organized script presentation
 
+<img width="811" alt="Image" src="https://github.com/user-attachments/assets/b0533263-5abd-4dd9-801b-b3e06d876825" />
+
+
 ## Prerequisites
+
+
 
 ### For macOS
 ```bash
@@ -21,7 +29,6 @@ A terminal-based interactive menu for managing and executing scripts with detail
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install required packages
-brew install go    # For building the program
 brew install chafa # For image preview support
 ```
 
@@ -29,35 +36,24 @@ brew install chafa # For image preview support
 ```bash
 # Debian/Ubuntu
 sudo apt update
-sudo apt install golang chafa
+sudo apt install chafa
 
 # Fedora
-sudo dnf install golang chafa
+sudo dnf install  chafa
 
 # Arch Linux
-sudo pacman -S go chafa
+sudo pacman -S  chafa
 ```
 
 ## Installation
 
-1. Clone the repository:
+Use  the script provided - todoinst
 ```bash
-git clone https://github.com/yourusername/todo.git
-cd todo
+todoinst
 ```
 
-2. Build the program:
-```bash
-go build todo.go
-```
 
-3. Create the required directories:
-```bash
-sudo mkdir -p /opt/4rji/bin
-sudo mkdir -p /opt/4rji/img-bin
-```
-
-4. Set up your scripts:
+Set up your scripts:
 - Place your scripts in `/opt/4rji/bin/`
 - Create a `README.md` file in `/opt/4rji/bin/` listing your scripts
 - (Optional) Add script images in `/opt/4rji/img-bin/` (supports .webp and .png formats)
