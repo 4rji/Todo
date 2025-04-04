@@ -53,19 +53,7 @@ todoinst
 ```
 
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/todo.git
-cd todo
-```
-
-3. Create the required directories:
-```bash
-sudo mkdir -p /opt/4rji/bin
-sudo mkdir -p /opt/4rji/img-bin
-```
-
-4. Set up your scripts:
+Set up your scripts:
 - Place your scripts in `/opt/4rji/bin/`
 - Create a `README.md` file in `/opt/4rji/bin/` listing your scripts
 - (Optional) Add script images in `/opt/4rji/img-bin/` (supports .webp and .png formats)
